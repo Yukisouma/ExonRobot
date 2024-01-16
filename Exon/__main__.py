@@ -47,7 +47,7 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text=f"🚁 ʜᴇʟᴘ 🚁", callback_data="help_back"),
+        InlineKeyboardButton(text=f" ʜᴇʟᴘ ", callback_data="help_back"),
         InlineKeyboardButton(text=f"🥀 sᴛᴀᴛs 🥀", callback_data="stats_callback"),
     ],
     [
