@@ -10,22 +10,6 @@ curr_chat_lang: "ʜᴇʏ. ʏᴏᴜʀ ᴄᴜʀʀᴇɴᴛ ʟᴀɴɢᴜᴀɢᴇ ɪs
 set_chat_lang: "ɢʀᴇᴀᴛ, {} ɪᴛ ɪs ( ғʀᴏᴍ ɴᴏᴡ ᴏɴ!"
 
 
-from platform import python_version as y
-
-from pyrogram import __version__ as z
-from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from telegram import __version__ as o
-from telethon import __version__ as s
-
-from Exon import Abishnoi as pbot
-
-Maki = "https://telegra.ph/file/ca8e425c0e58f3e51527f.jpg"
-
-
-@pbot.on_cmd("repo")
-async def repo(_, message):
-    await message.reply_photo(
-        photo=Maki,
 
 pm_start_text: |
    ʜɪ {},
