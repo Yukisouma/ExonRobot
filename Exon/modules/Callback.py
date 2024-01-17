@@ -163,7 +163,7 @@ def ABG_about_callback(update, context):
                     ],
                     [
                         InlineKeyboardButton(
-                            text="𝗬𝗨𝗞𝗜 • 『永』 •࿐", url="https://t.me/{OWNER_USERNAME}"
+                            text="𝗬𝗨𝗞𝗜 • 『永』 •࿐", url="https://t.me/Yuki_hun_bhai"
                         ),
                         InlineKeyboardButton(
                             text="ᴄʜᴀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
