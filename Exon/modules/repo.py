@@ -10,7 +10,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram import __version__ as o
 from telethon import __version__ as s
 
-from Exon import Mikasa as pbot
+from Exon import Abishnoi as pbot
 
 Tsunade = "https://telegra.ph/file/572cdfcc807e3288cba7e.jpg"
 
