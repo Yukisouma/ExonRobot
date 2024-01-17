@@ -9,7 +9,14 @@ authors: "@Call_me_ayano"
 curr_chat_lang: "ʜᴇʏ. ʏᴏᴜʀ ᴄᴜʀʀᴇɴᴛ ʟᴀɴɢᴜᴀɢᴇ ɪs {}, sᴇʟᴇᴄᴛ ᴛʜᴇ ᴏɴᴇ ʏᴏᴜ ᴡᴀɴᴛ ғʀᴏᴍ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ :)"
 set_chat_lang: "ɢʀᴇᴀᴛ, {} ɪᴛ ɪs ( ғʀᴏᴍ ɴᴏᴡ ᴏɴ!"
 
+from Exon import Abishnoi as pbot
 
+Tsunade = "https://telegra.ph/file/d4b70f1e2f4585ccb0d08.jpg"
+
+@pbot.on_cmd("repo")
+async def repo (_, message):
+    await message . reply_photo(
+         photo=Tsunade,
 
 pm_start_text: |
    ʜɪ {},
