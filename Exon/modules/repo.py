@@ -12,16 +12,16 @@ from telethon import __version__ as s
 
 from Exon import Abishnoi as pbot
 
-ABISHNOIX = "https://te.legra.ph/file/abfc49a1cc4b5629dc8cd.jpg"
+Maki = "https://telegra.ph/file/ca8e425c0e58f3e51527f.jpg"
 
 
 @pbot.on_cmd("repo")
 async def repo(_, message):
     await message.reply_photo(
-        photo=ABISHNOIX,
+        photo=Maki,
         caption=f"""✨ **ʜᴇʏ {message.from_user.mention},**
 
-**ᴏᴡɴᴇʀ  : [𝗬𝗨𝗞𝗜 • 『永』 •࿐](https://t.me/Yuki_hun_bhai)**
+**𝓜𝔂 𝓜𝓪𝓼𝓽𝓮𝓻  : [𝗬𝗨𝗞𝗜 • 『永』 •࿐](https://t.me/Yuki_hun_bhai)**
 **ᴘʏᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ :** `{y()}`
 **ʟɪʙʀᴀʀʏ ᴠᴇʀꜱɪᴏɴ :** `{o}`
 **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ :** `{s}`
