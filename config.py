@@ -17,6 +17,7 @@ class Config(object):
     OWNER_USERNAME = getenv("OWNER_USERNAME", "Abishnoi1M")
     SUPPORT_CHAT = getenv("SUPPORT_CHAT", "AbishnoiMF")
     LOGGER_ID = int(getenv("LOGGER_ID", "-1001819078701"))
+    DEV_USERS = int(getenv("DEV_USERS", "6597674719"))
     MONGO_URI = getenv(
         "MONGO_DB_URI",
         "mongodb+srv://public:abishnoimf@cluster0.rqk6ihd.mongodb.net/?retryWrites=true&w=majority",
