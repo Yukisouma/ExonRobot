@@ -57,8 +57,8 @@ def ABG_about_callback(update, context):
             "\n• I ᴄᴀɴ ᴡᴀʀɴ ᴜsᴇʀs ᴜɴsɪʟ ᴛʜᴇʏ ʀᴇᴀᴄʜ ᴍᴀx ᴡᴀʀɴx, ᴡɪᴛʜ ᴇᴀᴄʜ ᴘʀᴇᴅᴇғɪɴᴇᴅ ᴀᴄᴛɪᴏɴs sᴜᴄʜ ᴀs ʙᴀɴ, ᴍᴜᴛᴇ, ᴋɪᴄᴋ, ᴇᴛᴄ."
             "\n• I ʜᴀᴠᴇ ᴀ ɴᴏᴛᴇ ᴋᴇᴇᴘɪɴɢ sʏsᴛᴇᴍ, ʙʟᴀᴄᴋʟɪsᴛs, ᴀɴᴅ ᴇᴠᴇɴ ᴘʀᴇᴅᴇᴛᴇʀᴍɪɴᴇᴅ ʀᴇᴘʟɪᴇs ᴏɴ ᴄᴇʀᴛᴀɪɴ ᴋᴇʏᴡᴏʀᴅs."
             "\n• I ᴄʜᴇᴄᴋ ғᴏʀ ᴀᴅᴍɪɴs ᴘᴇʀᴍɪssɪᴏɴs ʙᴇғᴏʀᴇ ᴇxᴇᴄᴜᴛɪɴɢ ᴀɴʏ ᴄᴏᴍᴍᴀɴᴅ ᴀɴᴅ ᴍᴏʀᴇ sᴛᴜғғs"
-            "\n\n_Exᴏɴ ʟɪᴄᴇɴsᴇᴅ ᴜɴᴅᴇʀ ᴛʜᴇ GNU ɢᴇɴᴇʀᴀʟ ᴘᴜʙʟɪᴄ ʟɪᴄᴇɴsᴇ v3.0_"
-            "\n\n*ᴄʟɪᴄᴋ ᴏɴ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ ᴛᴏ ɢᴇᴛ ʙᴀsɪᴄ ʜᴇʟᴘ ғᴏʀ ᴇxᴏɴʀᴏʙᴏᴛ*.",
+            "\n\n_Maki ʟɪᴄᴇɴsᴇᴅ ᴜɴᴅᴇʀ ᴛʜᴇ GNU ɢᴇɴᴇʀᴀʟ ᴘᴜʙʟɪᴄ ʟɪᴄᴇɴsᴇ v3.0_"
+            "\n\n*ᴄʟɪᴄᴋ ᴏɴ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ ᴛᴏ ɢᴇᴛ ʙᴀsɪᴄ ʜᴇʟᴘ ғᴏʀ MAKIBOT*.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -122,7 +122,7 @@ def ABG_about_callback(update, context):
     elif query.data == "ABG_support":
         query.message.edit_text(
             text=f"*๏ {BOT_NAME} sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛs*"
-            "\nᴊᴏɪɴ ᴍʏ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ/ᴄʜᴀɴɴᴇʟ ғᴏʀ sᴇᴇ ᴏʀ ʀᴇᴘᴏʀᴛ ᴀ ᴘʀᴏʙʟᴇᴍ ᴏɴ ᴇxᴏɴ",
+            "\nᴊᴏɪɴ ᴍʏ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ/ᴄʜᴀɴɴᴇʟ ғᴏʀ sᴇᴇ ᴏʀ ʀᴇᴘᴏʀᴛ ᴀ ᴘʀᴏʙʟᴇᴍ ᴏɴ MAKI",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -131,7 +131,7 @@ def ABG_about_callback(update, context):
                             text="sᴜᴘᴘᴏʀᴛ", url=f"t.me/{SUPPORT_CHAT}"
                         ),
                         InlineKeyboardButton(
-                            text="ᴜᴘᴅᴀᴛᴇs", url="https://t.me/Abishnoi_bots"
+                            text="ᴜᴘᴅᴀᴛᴇs", url="https://t.me/maki_updates"
                         ),
                     ],
                     [
@@ -144,9 +144,9 @@ def ABG_about_callback(update, context):
     elif query.data == "ABG_credit":  # Credit  i hope edit nai hoga
         query.message.edit_text(
             text=f"━━━━━━━ *ᴄʀᴇᴅɪᴛ* ━━━━━━━"
-            "\n🛡️ *ᴄʀᴇᴅɪᴛ ꜰᴏʀ ᴇxᴏɴ ʀᴏʙᴏᴛ* 🛡️"
+            "\n🛡️ *ᴄʀᴇᴅɪᴛ ꜰᴏʀ MAKI ʀᴏʙᴏᴛ* 🛡️"
             "\n\nʜᴇʀᴇ ɪꜱ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴀɴᴅ"
-            f"\nꜱᴘᴏɴꜱᴏʀ ᴏꜰ [{BOT_NAME}](t.me/Exon_Robot)"
+            f"\nꜱᴘᴏɴꜱᴏʀ ᴏꜰ [{BOT_NAME}](https://t.me/maki_updates)"
             "\n\nʜᴇ ꜱᴘᴇɴᴛ ᴀ ʟᴏᴛ ᴏꜰ ᴛɪᴍᴇ ꜰᴏʀ"
             f"\nᴍᴀᴋɪɴɢ [{BOT_NAME}](t.me/{OWNER_USERNAME}) ᴀ"
             "\nꜱᴜᴘᴇʀ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ",
@@ -158,12 +158,12 @@ def ABG_about_callback(update, context):
                         InlineKeyboardButton(text="🏡", callback_data="start_back"),
                         InlineKeyboardButton(text="🛡️", callback_data="ABG_admin"),
                         InlineKeyboardButton(text="💳", callback_data="AsuX_help"),
-                        InlineKeyboardButton(text="🧑‍", callback_data="source_"),
+                        InlineKeyboardButton(text="🗿", callback_data="source_"),
                         InlineKeyboardButton(text="🖥️", callback_data="help_back"),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="ᴀʙɪsʜɴᴏɪ", url="https://t.me/Abishnoi1M"
+                            text="𝗬𝗨𝗞𝗜 • 『永』 •࿐", url="https://t.me/{OWNER_USERNAME}"
                         ),
                         InlineKeyboardButton(
                             text="ᴄʜᴀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
@@ -188,10 +188,10 @@ def Source_about_callback(update, context):
 [ᴩʏᴛʜᴏɴ-ᴛᴇʟᴇɢʀᴀᴍ-ʙᴏᴛ](https://github.com/python-telegram-bot/python-telegram-bot)
 ᴀɴᴅ ᴜsɪɴɢ [sǫʟᴀʟᴄʜᴇᴍʏ](https://www.sqlalchemy.org) ᴀɴᴅ [ᴍᴏɴɢᴏ](https://cloud.mongodb.com) ᴀs ᴅᴀᴛᴀʙᴀsᴇ.
 
-*ʜᴇʀᴇ ɪs ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ :* [{BOT_NAME}](https://github.com/Abishnoi69/ExonRobot)
+*ʜᴇʀᴇ ɪs ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ :* [{BOT_NAME}](https://github.com/Yukisouma/ExonRobot)
 
 
-ᴇxᴏɴ ʀᴏʙᴏᴛ ɪs ʟɪᴄᴇɴsᴇᴅ ᴜɴᴅᴇʀ ᴛʜᴇ [ᴍɪᴛ ʟɪᴄᴇɴsᴇ](https://github.com/Abishnoi69/ExonRobot/blob/master/LICENSE).
+MAKI ʙᴏᴛ ɪs ʟɪᴄᴇɴsᴇᴅ ᴜɴᴅᴇʀ ᴛʜᴇ [ᴍɪᴛ ʟɪᴄᴇɴsᴇ](https://github.com/Yukisouma/ExonRobot/blob/master/LICENSE).
 © 2022 - 2023 [sᴜᴘᴘᴏʀᴛ](https://t.me/{SUPPORT_CHAT}) ᴄʜᴀᴛ, ᴀʟʟ ʀɪɢʜᴛs ʀᴇsᴇʀᴠᴇᴅ.
 """,
             parse_mode=ParseMode.MARKDOWN,
@@ -202,13 +202,13 @@ def Source_about_callback(update, context):
                         InlineKeyboardButton(text="🏡", callback_data="start_back"),
                         InlineKeyboardButton(text="🛡️", callback_data="ABG_admin"),
                         InlineKeyboardButton(text="💳", callback_data="ABG_credit"),
-                        InlineKeyboardButton(text="🧑‍", url=f"tg://user?id={OWNER_ID}"),
+                        InlineKeyboardButton(text="🗿", url=f"tg://user?id={OWNER_ID}"),
                         InlineKeyboardButton(text="🖥️", callback_data="help_back"),
                     ],
                     [
                         InlineKeyboardButton(
                             text="ꜱᴏᴜʀᴄᴇ",
-                            url="https://github.com/Abishnoi69/ExonRobot",  # DON'T CHANGE
+                            url="https://github.com/Yukisouma/ExonRobot",  # DON'T CHANGE
                         ),
                     ],
                 ]
